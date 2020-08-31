@@ -1,6 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
+import VideoPlayer from "components/VideoPlayer";
 
 export default function Home() {
-  return <div>nothing to see here</div>;
+  return (
+    <main>
+      <section>
+        <VideoPlayer youtubeId={"msJx7hxfuQI"} />
+      </section>
+    </main>
+  );
 }
