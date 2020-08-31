@@ -17,6 +17,7 @@
     "polished": "^3.6.6",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-google-maps": "^9.4.5",
     "styled-components": "^5.1.1",
     "styled-theming": "^2.2.0",
     "styled-tools": "^1.7.2"

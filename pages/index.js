@@ -1,12 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
-import VideoPlayer from "components/VideoPlayer";
+import VideoHero from "components/VideoHero";
 
 export default function Home() {
   return (
     <main>
       <section>
-        <VideoPlayer youtubeId={"msJx7hxfuQI"} />
+        <VideoHero youtubeId={"msJx7hxfuQI"} />
       </section>
     </main>
   );

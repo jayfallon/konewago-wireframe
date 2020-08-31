@@ -13,6 +13,9 @@ module.exports = withPWA({
   },
   publicRuntimeConfig: {
     // Will be available on both server and client
-    API_URL: process.env.API_URL,
+    GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
+  },
+  env: {
+    GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
   },
 });

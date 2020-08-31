@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function about() {
-  return <div>the about page</div>;
+  return <div>the camp page</div>;
 }

@@ -5,11 +5,14 @@ import { Colors } from "../Theme";
 const HeaderStyles = styled.header`
   background-color: ${Colors.white};
   padding: 12px 12px;
+  width: 100%;
   min-height: 80px;
   border-bottom: 1px solid ${Colors.black};
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 200;
   h1 {
     font-size: 30px;
   }

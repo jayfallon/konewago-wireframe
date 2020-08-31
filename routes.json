@@ -6,14 +6,24 @@
       "text": "home"
     },
     {
-      "title": "about",
-      "url": "/about",
-      "text": "about"
+      "title": "camp",
+      "url": "/camp",
+      "text": "camp"
+    },
+    {
+      "title": "reserve",
+      "url": "/reserve",
+      "text": "reserve"
     },
     {
       "title": "faq",
       "url": "/faq",
       "text": "faq"
+    },
+    {
+      "title": "contact",
+      "url": "/contact",
+      "text": "contact"
     }
   ],
   "campsite": {
