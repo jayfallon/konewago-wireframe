@@ -8,8 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^2.6.5",
     "next": "9.5.2",
+    "polish": "^0.2.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1",
+    "styled-theming": "^2.2.0",
+    "styled-tools": "^1.7.2"
   }
 }
