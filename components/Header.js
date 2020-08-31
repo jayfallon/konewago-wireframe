@@ -16,7 +16,7 @@ Router.onRouteChangeError = () => {
 };
 
 export default function Header() {
-  const { website } = routes;
+  const { website, campsite } = routes;
   return (
     <HeaderStyles>
       <h1>
@@ -35,6 +35,13 @@ export default function Header() {
               </li>
             );
           })}
+          <li className="button--ctm">
+            <Link href={campsite.url}>
+              <a rel={campsite.rel} target={campsite.target}>
+                {campsite.text}
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </HeaderStyles>

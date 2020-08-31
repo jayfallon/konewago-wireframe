@@ -15,5 +15,12 @@
       "url": "/faq",
       "text": "faq"
     }
-  ]
+  ],
+  "campsite": {
+    "title": "konewago cabins",
+    "url": "https://www.airbnb.com/rooms/15532479?source_impression_id=p3_1598888739_AnD8lYBFX0pm%2BSNL",
+    "text": "book now",
+    "target": "_blank",
+    "rel": "noopener"
+  }
 }
