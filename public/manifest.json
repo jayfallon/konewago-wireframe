@@ -1,0 +1,9 @@
+{
+  "name": "konewago-wireframe",
+  "short_name": "konewago-wireframe",
+  "theme_color": "#161513",
+  "background_color": "#d5a147",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
