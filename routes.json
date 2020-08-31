@@ -32,5 +32,34 @@
     "text": "book now",
     "target": "_blank",
     "rel": "noopener"
+  },
+  "cabins": [
+    {
+      "title": "konewago",
+      "url": "/camp/cabins/konewago",
+      "text": "konewago"
+    },
+    {
+      "title": "kojoko",
+      "url": "/camp/cabins/kojoko",
+      "text": "kojoko"
+    },
+    {
+      "title": "kasita",
+      "url": "/camp/cabins/kasita",
+      "text": "kasita"
+    },
+    {
+      "title": "kokaski",
+      "url": "/camp/cabins/kokaski",
+      "text": "kokaski"
+    }
+  ],
+  "terms": {
+    "title": "terms & conditions",
+    "url": "https://www.termsfeed.com/live/134da849-6017-404a-ad21-d1362dbb04ae",
+    "target": "_blank",
+    "rel": "noopener",
+    "text": "terms & conditions"
   }
 }
