@@ -21,23 +21,13 @@ const StyledPage = styled.div`
 `;
 
 const Page = (props) => {
-  const theme = UseTheme();
-  // const [theme, setTheme] = useState(getInitialTheme);
+  //   const theme = UseTheme();
+  const [theme, setTheme] = useState("light");
 
   return (
-    <motion.div
-      initial="pageInitial"
-      animate="pageAnimate"
-      variants={{
-        pageInital: {
-          opacity: 0,
-        },
-        pageAnimate: {
-          opacity: 1,
-        },
-      }}>
+    <React.Fragment>
       <DefaultSeo {...SEO} />
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={{ mode: "light" }}>
         <StyledPage>
           <GlobalStyle />
           <a name="pageTop" id="pageTop" />
@@ -49,7 +39,7 @@ const Page = (props) => {
           <Footer />
         </StyledPage>
       </ThemeProvider>
-    </motion.div>
+    </React.Fragment>
   );
 };
 

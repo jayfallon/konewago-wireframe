@@ -1,0 +1,19 @@
+{
+  "website": [
+    {
+      "title": "home",
+      "url": "/",
+      "text": "home"
+    },
+    {
+      "title": "about",
+      "url": "/about",
+      "text": "about"
+    },
+    {
+      "title": "faq",
+      "url": "/faq",
+      "text": "faq"
+    }
+  ]
+}
