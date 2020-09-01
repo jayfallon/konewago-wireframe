@@ -58,10 +58,12 @@ export default function Home() {
         </h2>
         <img src="/images/kojoko.png" alt="kojoko cabin" />
         <p className="section--text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-          incidunt exercitationem quam quod non quae necessitatibus in omnis ex
-          laboriosam laudantium, consectetur explicabo magnam itaque odio cum
-          tenetur libero aperiam.
+          This is a magical place. For 7 days and nights our 4 adult kids,
+          spouses and 8 grandkids created their own “family village” running
+          from cabin to cabin, being with their cousins, uncles and aunts,
+          sleepovers, exploring the woods and lake, fishing, baking cookies,
+          dancing on the deck, making fairy houses, jumping off the dock,
+          campfires. This is a place to create life long memories.
         </p>
         <p className="section--link">
           <Link href="/camp/cabins/kojoko">
