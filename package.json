@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.11.0",
+    "@auth0/nextjs-auth0": "^0.16.0",
     "framer-motion": "^2.6.5",
     "local-storage-fallback": "^4.1.1",
     "next": "9.5.2",
@@ -20,6 +22,7 @@
     "react-google-maps": "^9.4.5",
     "styled-components": "^5.1.1",
     "styled-theming": "^2.2.0",
-    "styled-tools": "^1.7.2"
+    "styled-tools": "^1.7.2",
+    "use-auth0-hooks": "^0.7.0"
   }
 }
