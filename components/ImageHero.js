@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const ImageHeroStyles = styled.section`
-  background-image: url(/images/${image});
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 600px;
@@ -10,8 +9,7 @@ const ImageHeroStyles = styled.section`
 
 export default function ImageHero({ image }) {
   return (
-    <ImageHero>
-      <p>hello </p>
-    </ImageHero>
+    <ImageHeroStyles
+      style={{ backgroundImage: `url(images/${image})` }}></ImageHeroStyles>
   );
 }

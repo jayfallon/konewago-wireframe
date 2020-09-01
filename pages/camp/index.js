@@ -2,6 +2,7 @@ import Link from "next/link";
 import Columns12 from "components/Columns12";
 import PageTitle from "components/PageTitle";
 import PageSubTitle from "components/PageSubTitle";
+import ImageHero from "components/ImageHero";
 
 import routes from "../../routes.json";
 
@@ -9,6 +10,7 @@ export default function index() {
   const { cabins } = routes;
   return (
     <CampStyles>
+      <ImageHero image={"lake-keoka.png"} />
       <Columns12>
         <PageTitle>Welcome to our camp!</PageTitle>
         <p>

@@ -16,20 +16,31 @@ const HeaderStyles = styled.header`
   h1 {
     font-size: 30px;
   }
-  nav ul {
+
+  nav {
     display: flex;
-    li {
-      padding: 12px;
-      font-size: 1.8rem;
-      &.button--ctm {
+    justify-content: flex-end;
+    align-items: center;
+    ul {
+      display: flex;
+      li {
+        font-size: 1.8rem;
         a {
-          background-color: ${Colors.black};
-          padding: 6px 12px;
-          color: ${Colors.white};
+          padding: 12px;
+          color: ${Colors.black};
+          &.active {
+            background-color: ${Colors.greenyellow};
+          }
         }
       }
+    }
+    div.button--cta {
+      margin-left: 12px;
       a {
-        color: ${Colors.black};
+        background-color: ${Colors.black};
+        padding: 12px;
+        color: ${Colors.white};
+        font-size: 1.8rem;
       }
     }
   }

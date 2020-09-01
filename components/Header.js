@@ -1,6 +1,8 @@
 import Router from "next/router";
 import Link from "next/link";
 import NProgress from "nprogress";
+import { WebsiteLinks } from "./NavLinks";
+import { CTAButton } from "./CallToAction";
 import HeaderStyles from "./styled-components/HeaderStyles";
 
 import routes from "../routes.json";
@@ -25,24 +27,8 @@ export default function Header() {
         </Link>
       </h1>
       <nav>
-        <ul>
-          {website.map((item, idx) => {
-            return (
-              <li key={idx}>
-                <Link href={item.url}>
-                  <a>{item.text}</a>
-                </Link>
-              </li>
-            );
-          })}
-          <li className="button--ctm">
-            <Link href={campsite.url}>
-              <a rel={campsite.rel} target={campsite.target}>
-                {campsite.text}
-              </a>
-            </Link>
-          </li>
-        </ul>
+        <WebsiteLinks />
+        <CTAButton />
       </nav>
     </HeaderStyles>
   );
